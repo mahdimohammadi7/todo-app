@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #f3f4f6;
+  color: #1f2937;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.app {
+  width: 100%;
+  max-width: 480px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  align-self: flex-start;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+#todo-form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#todo-input {
+  flex: 1;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #4f46e5;
+  color: #ffffff;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+#counter {
+  margin: 1rem 0 0.5rem;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+#todo-list {
+  list-style: none;
+}
+
+#todo-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+#todo-list li span {
+  flex: 1;
+  word-break: break-word;
+}
+
+#todo-list li.done span {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+#todo-list .delete {
+  background: #ef4444;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.8rem;
+}
+
+#todo-list .delete:hover {
+  background: #dc2626;
+}
