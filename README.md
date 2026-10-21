@@ -32,9 +32,9 @@ A simple, responsive task manager built with HTML, CSS, and vanilla JavaScript. 
 
 
 todo-app/
-├── index.html   # Page structure
-├── style.css    # Styles and layout
-└── script.js    # App logic and localStorage
+  index.html   - Page structure
+  style.css    - Styles and layout
+  script.js    - App logic and localStorage
 
 
 ## What I Learned
